@@ -1,0 +1,207 @@
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('back.png'); /* Replace 'back.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  background: #4682B4;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 20px 0;
+}
+
+footer {
+  background: #4682B4;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start; /* Align content at the start of the flex container */
+}
+
+.footer-content {
+  margin-top: auto; /* Push content to the top of the footer */
+}
+
+.blue-box {
+  background: rgba(0, 0, 255, 0.5); /* Blue box for content */
+  color: #fff;
+  padding: 20px;
+}
+
+/* Slideshow styles */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: 20px auto; /* Center the slideshow horizontally */
+  text-align: center; /* Center the images within the slideshow */
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Adjust image width for smaller slideshow */
+.mySlides img {
+  width: 200px; /* Change this value to suit your desired width */
+  height: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Centering project glimpse */
+.project-glimpse {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.center {
+  text-align: center;
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+.image-with-text {
+  display: flex;
+  align-items: center;
+}
+
+.image-with-text img {
+  max-width: 50%; /* Adjust this value as needed */
+  /* Other image styles */
+}
+
+.image-with-text p {
+  margin-left: 20px; /* Adjust this value for desired spacing */
+  /* Other text styles */
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 50px; /* Adjust the size of the logo as needed */
+  height: 50px; /* Adjust the size of the logo as needed */
+  border-radius: 50%; /* Makes the logo circular */
+  overflow: hidden; /* Ensures the image stays within the circular shape */
+  margin-right: 10px; /* Adjust the spacing between logo and text */
+}
+/* Basic styling for the social media section */
+.social-media-section {
+  position: fixed;
+  top: 50%; /* Adjust the position from the top as needed */
+  transform: translateY(-50%);
+  right: 0;
+  background-color: #fff; /* Change background color as per your design */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for a floating effect */
+}
+
+.social-icon {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #333; /* Set icon color */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+.contact-info p {
+  padding-left: 25px; /* Adjust the padding as needed */
+  position: relative;
+}
+
+.contact-info i {
+  position: absolute;
+  left: 0;
+}
